@@ -59,7 +59,7 @@ $faqs = [
 <body>
     <header></header>
     <main>
-        <div class="container-fluid">
+        <div class="container">
             <?php foreach($faqs as $faq) : ?>
                 <?php echo $faq['q'] ?>
                 <div><?php echo $faq['a'] ?></div>
